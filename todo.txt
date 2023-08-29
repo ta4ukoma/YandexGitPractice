@@ -1,1 +1,1 @@
-1. Get couple lessons about Git
+2. This is for second commit

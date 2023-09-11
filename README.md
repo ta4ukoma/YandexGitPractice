@@ -18,7 +18,7 @@ HEAD — это указатель на текущую ветку, котора�
 ### Life circle of git
 
 ```mermaid
-graph TD;
+graph LR;
     A["WorkDir(Untracked by Git)"] -- git init --> B["WorkDir(Tracked by GIT)"];
     B["WorkDir(Tracked by GIT)"] -- git add --> C[Staging Area];
     C[Staging Area] -- git commit --> D[Local repository];
